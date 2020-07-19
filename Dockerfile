@@ -1,4 +1,5 @@
-FROM java:8
+FROM openjdk
+:8
 
 MAINTAINER yin/13916555119@163.com
 

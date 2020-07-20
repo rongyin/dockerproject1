@@ -3,7 +3,7 @@ server:
 
 spring:
   activemq:
-    broker-url: tcp://localhost:61616 #mq server
+    broker-url: nio://localhost:61608 #mq server tcp://localhost:61616
     user: admin
     password: admin
   jms:
